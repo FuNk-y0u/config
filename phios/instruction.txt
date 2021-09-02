@@ -1,0 +1,2 @@
+nasm -f bin boot.asm -o boot.bin //Turns .asm to .bin
+qemu-system-x86_64 boot.bin //Runs a vm for boot.bin
